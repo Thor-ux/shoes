@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.store {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.icon-switch {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.icon-switch .material-icons {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.cards-view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.shop-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.shop-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.shop-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.shop-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shop-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.shop-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.shop-item h3, .shop-item p, .shop-item span {
+  margin: 0 20px;
+}
+
+.shop-item button {
+  margin-left: auto;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
